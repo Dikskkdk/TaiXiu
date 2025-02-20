@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tài Xỉu Game</title>
+    <title>Quay Hũ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Tài Xỉu Game</h1>
-        <div id="result">
-            <p>Kết quả: <span id="dice-result">...</span></p>
+        <h1>Quay Hũ</h1>
+        <div class="slot-machine">
+            <div class="slot" id="slot1">🍒</div>
+            <div class="slot" id="slot2">🍋</div>
+            <div class="slot" id="slot3">🍊</div>
         </div>
-        <div class="buttons">
-            <button id="tai">Tài</button>
-            <button id="xiu">Xỉu</button>
-        </div>
-        <p id="message"></p>
+        <button id="spin-button">Quay</button>
+        <p id="result-message"></p>
     </div>
     <script src="script.js"></script>
 </body>
